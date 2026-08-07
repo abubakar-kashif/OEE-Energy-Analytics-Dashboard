@@ -229,13 +229,13 @@ This project demonstrates practical skills in:
 
 ## Excel Dashboard
 
-![Excel Dashboard](screenshots/Excel_Dashboard.png)
+![Excel Dashboard](Screenshots/Excel_dashboard.png)
 
 ---
 
 ## Power BI Dashboard
 
-![Power BI Dashboard](screenshots/PowerBI_Dashboard.png)
+![Power BI Dashboard](Screenshots/PowerBI_dashboard.png)
 
 ---
 
