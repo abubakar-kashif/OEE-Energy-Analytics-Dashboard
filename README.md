@@ -1,512 +1,258 @@
-\# Machine Efficiency (OEE) and Energy Consumption Analysis Dashboard
+# Machine Efficiency (OEE) and Energy Consumption Analysis Dashboard
 
-
-
-An industrial data analytics project developed to analyze \*\*machine efficiency, production performance, energy consumption, and operating costs\*\* using \*\*Microsoft Excel and Power BI\*\*.
-
-
+An industrial data analytics project developed to analyze **machine efficiency, production performance, energy consumption, and operating costs** using **Microsoft Excel and Power BI**.
 
 The project converts raw machine data into meaningful insights through automated calculations, summary analysis, and interactive dashboards for performance evaluation and decision-making.
 
+---
 
-
-\---
-
-
-
-\# Project Overview
-
-
+# Project Overview
 
 Manufacturing industries require efficient monitoring systems to evaluate equipment performance, reduce energy waste, and improve productivity.
 
-
-
 This project focuses on developing an analytics solution that combines:
 
-
-
-\- Overall Equipment Effectiveness (OEE) analysis
-
-\- Machine performance monitoring
-
-\- Electrical energy consumption analysis
-
-\- Operating cost evaluation
-
-\- Interactive dashboard visualization
-
-
+- Overall Equipment Effectiveness (OEE) analysis
+- Machine performance monitoring
+- Electrical energy consumption analysis
+- Operating cost evaluation
+- Interactive dashboard visualization
 
 The workflow of the project:
 
-
-
-```
-
+```text
 Raw Machine Data
-
-&#x20;       ↓
-
-Excel Data Processing \& Calculations
-
-&#x20;       ↓
-
+        ↓
+Excel Data Processing & Calculations
+        ↓
 OEE and Energy Analysis
-
-&#x20;       ↓
-
+        ↓
 Power BI Interactive Dashboard
-
-&#x20;       ↓
-
+        ↓
 Performance Insights
-
 ```
 
+---
 
-
-\---
-
-
-
-\# Project Objectives
-
-
+# Project Objectives
 
 The main objectives of this project are:
 
+- Analyze machine efficiency using OEE metrics
+- Evaluate Availability, Performance, and Quality factors
+- Monitor electrical energy consumption
+- Calculate operational energy costs
+- Develop interactive dashboards for manufacturing analysis
+- Convert raw industrial data into actionable insights
 
+---
 
-\- Analyze machine efficiency using OEE metrics
+# Tools and Technologies Used
 
-\- Evaluate Availability, Performance, and Quality factors
+- **Microsoft Excel** — Data processing, calculations, and dashboard development
+- **Power BI** — Interactive visualization and analytics
+- **Data Analytics** — Performance measurement and insights generation
+- **Manufacturing Analytics** — Machine efficiency evaluation
+- **Electrical Energy Analysis** — Load, consumption, and cost monitoring
 
-\- Monitor electrical energy consumption
+---
 
-\- Calculate operational energy costs
+# Project Structure
 
-\- Develop interactive dashboards for manufacturing analysis
-
-\- Convert raw industrial data into actionable insights
-
-
-
-\---
-
-
-
-\# Tools and Technologies Used
-
-
-
-\- \*\*Microsoft Excel\*\* — Data processing, calculations, and dashboard development
-
-\- \*\*Power BI\*\* — Interactive visualization and analytics
-
-\- \*\*Data Analytics\*\* — Performance measurement and insights generation
-
-\- \*\*Manufacturing Analytics\*\* — Machine efficiency evaluation
-
-\- \*\*Electrical Energy Analysis\*\* — Load, consumption, and cost monitoring
-
-
-
-\---
-
-
-
-\# Project Structure
-
-
-
-```
-
+```text
 OEE-Energy-Analytics-Dashboard
 
-
-
 │
-
-├── Machine\_Efficiency\_OEE\_Energy.xlsx
-
+├── OEE_Analysis.xlsx
 │
-
-├── Machine\_Efficiency\_Energy\_Dashboard.pbix
-
+├── Machine_Efficiency_Energy_Dashboard.pbix
 │
-
-├── Screenshots
-
-│   ├── Excel\_Dashboard.png
-
-│   └── PowerBI\_Dashboard.png
-
+├── screenshots
+│   ├── Excel_Dashboard.png
+│   └── PowerBI_Dashboard.png
 │
-
 └── README.md
-
 ```
 
+---
 
+# Excel Analysis
 
-\---
-
-
-
-\# Excel Analysis
-
-
-
-Microsoft Excel is used as the \*\*data preparation and calculation layer\*\*.
-
-
+Microsoft Excel is used as the **data preparation and calculation layer**.
 
 The workbook performs:
 
+- Machine performance calculations
+- OEE calculations
+- Energy consumption analysis
+- Cost calculations
+- Summary generation
 
+---
 
-\- Machine performance calculations
-
-\- OEE calculations
-
-\- Energy consumption analysis
-
-\- Cost calculations
-
-\- Summary generation
-
-
-
-\## Overall Equipment Effectiveness (OEE)
-
-
+# Overall Equipment Effectiveness (OEE)
 
 OEE measures machine productivity using three major factors:
 
+## Availability
 
-
-\### Availability
-
-
-
-```
-
+```text
 Availability =
-
 Operating Time / Planned Production Time
-
 ```
-
-
 
 Measures equipment uptime during production.
 
+---
 
+## Performance
 
-\---
-
-
-
-\### Performance
-
-
-
-```
-
+```text
 Performance =
-
 Actual Output / Ideal Output
-
 ```
-
-
 
 Measures production speed compared with expected performance.
 
+---
 
+## Quality
 
-\---
-
-
-
-\### Quality
-
-
-
-```
-
+```text
 Quality =
-
 Good Products / Total Products
-
 ```
-
-
 
 Measures defect-free production.
 
+---
 
+## OEE Formula
 
-\---
-
-
-
-\### OEE Formula
-
-
-
-```
-
+```text
 OEE =
-
 Availability × Performance × Quality
-
 ```
-
-
 
 The calculated OEE values are used for machine efficiency comparison and dashboard visualization.
 
+---
 
-
-\---
-
-
-
-\# Power BI Dashboard
-
-
+# Power BI Dashboard
 
 Power BI is used as the interactive analytics and visualization layer.
 
-
-
 The dashboard provides:
 
-
-
-\## KPI Monitoring
-
-
+## KPI Monitoring
 
 Key performance indicators include:
 
+- Total Machines
+- Average OEE
+- Connected Load
+- Daily Energy Consumption
+- Daily Operating Cost
 
+---
 
-\- Total Machines
-
-\- Average OEE
-
-\- Connected Load
-
-\- Daily Energy Consumption
-
-\- Daily Operating Cost
-
-
-
-\---
-
-
-
-\## Machine Performance Analysis
-
-
+## Machine Performance Analysis
 
 The dashboard allows analysis of:
 
+- Machine-wise OEE comparison
+- Availability, Performance, and Quality breakdown
+- Efficiency differences between machines
 
+---
 
-\- Machine-wise OEE comparison
-
-\- Availability, Performance, and Quality breakdown
-
-\- Efficiency differences between machines
-
-
-
-\---
-
-
-
-\## Energy Analysis
-
-
+## Energy Analysis
 
 The dashboard evaluates:
 
+- Electrical load distribution
+- Machine energy consumption
+- Operating cost contribution
 
+---
 
-\- Electrical load distribution
-
-\- Machine energy consumption
-
-\- Operating cost contribution
-
-
-
-\---
-
-
-
-\## Interactive Filtering
-
-
+## Interactive Filtering
 
 Users can filter and analyze specific machines through interactive dashboard controls.
 
+---
 
-
-\---
-
-
-
-\# Automation Workflow
-
-
+# Automation Workflow
 
 The project follows an automated data analysis workflow:
 
-
-
-```
-
+```text
 Update Machine Data
 
-
-
-&#x20;       ↓
-
-
+        ↓
 
 Excel Calculations Update
 
-
-
-&#x20;       ↓
-
-
+        ↓
 
 Summary Tables Generated
 
-
-
-&#x20;       ↓
-
-
+        ↓
 
 Power BI Refresh
 
-
-
-&#x20;       ↓
-
-
+        ↓
 
 Updated Dashboard Insights
-
 ```
-
-
 
 This reduces manual calculations and allows faster performance evaluation.
 
+---
 
-
-\---
-
-
-
-\# Key Skills Demonstrated
-
-
+# Key Skills Demonstrated
 
 This project demonstrates practical skills in:
 
+- Data Analytics
+- Microsoft Excel Automation
+- Power BI Dashboard Development
+- Manufacturing Performance Analysis
+- Electrical Energy Monitoring
+- KPI Development
+- Data Visualization
+- Engineering Problem Solving
 
+---
 
-\- Data Analytics
+# Dashboard Preview
 
-\- Microsoft Excel Automation
+## Excel Dashboard
 
-\- Power BI Dashboard Development
+![Excel Dashboard](screenshots/Excel_Dashboard.png)
 
-\- Manufacturing Performance Analysis
+---
 
-\- Electrical Energy Monitoring
+## Power BI Dashboard
 
-\- KPI Development
+![Power BI Dashboard](screenshots/PowerBI_Dashboard.png)
 
-\- Data Visualization
+---
 
-\- Engineering Problem Solving
-
-
-
-\---
-
-
-
-\# Dashboard Preview
-
-
-
-\## Excel Dashboard
-
-
-
-!\[Excel Dashboard](Screenshots/Excel\_Dashboard.png)
-
-
-
-\---
-
-
-
-\## Power BI Dashboard
-
-
-
-!\[Power BI Dashboard](Screenshots/PowerBI\_Dashboard.png)
-
-
-
-\---
-
-
-
-\# Future Improvements
-
-
+# Future Improvements
 
 Possible improvements:
 
+- Real-time machine monitoring using IoT sensors
+- Automated industrial data collection
+- Predictive maintenance analysis
+- Database integration
+- Machine learning-based efficiency prediction
 
+---
 
-\- Real-time machine monitoring using IoT sensors
+# Author
 
-\- Automated industrial data collection
+**Abubakar Kashif**
 
-\- Predictive maintenance analysis
-
-\- Database integration
-
-\- Machine learning-based efficiency prediction
-
-
-
-\---
-
-
-
-\# Author
-
-
-
-\*\*Abubakar Kashif\*\*
-
-
-
-Electrical Engineering Student | Software \& AI Engineering
-
+Electrical Engineering Student | Software & AI Engineering
