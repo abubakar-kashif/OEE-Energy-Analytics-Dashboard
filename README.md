@@ -239,6 +239,40 @@ This project demonstrates practical skills in:
 
 ---
 
+---
+
+# Files Included
+
+## Excel Workbook
+
+`OEE Analysis.xlsx`
+
+Contains:
+- Machine efficiency calculations
+- OEE analysis
+- Energy consumption calculations
+- Operating cost analysis
+- Excel dashboard
+
+Download the file and open it using **Microsoft Excel**.
+
+---
+
+## Power BI Dashboard
+
+`Machine_Efficiency_Energy_Dashboard.pbix`
+
+Contains:
+- Interactive Power BI dashboard
+- KPI monitoring
+- Machine performance analysis
+- Energy consumption visualization
+- Cost analysis
+
+Download the file and open it using **Microsoft Power BI Desktop**.
+
+---
+
 # Future Improvements
 
 Possible improvements:
